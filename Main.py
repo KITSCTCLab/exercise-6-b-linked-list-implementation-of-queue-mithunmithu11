@@ -11,6 +11,7 @@ class Queue:
 
   def enqueue(self, data) -> None:
     # Write your code here
+    new = Node(data)
 
   def dequeue(self) -> None:
     # Write your code here
