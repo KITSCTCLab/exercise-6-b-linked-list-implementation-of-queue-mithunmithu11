@@ -16,10 +16,7 @@ class Queue:
   
     # Write your code here
     if not self.head is None:
-      self.head = self.head.next
-      
-        self.tail = None
-    
+      self.head = self.head.nex
 
   def status(self) -> None:
     # Write your code here
