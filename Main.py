@@ -26,7 +26,7 @@ class Queue:
     if not self.head is None:
       self.head = self.head.next
       if self.head is None:
-        self.tail = Non
+        self.tail = None
 
 
 # Do not change the following code
