@@ -15,6 +15,10 @@ class Queue:
 
   def dequeue(self) -> None:
     # Write your code here
+    if not self.head is None:
+      self.head = self.head.next
+      if self.head is None:
+        self.tail = None
     
 
   def status(self) -> None:
