@@ -13,7 +13,7 @@ class Queue:
     # Write your code here
     new = Node(data)
 
-  def dequeue(self) -> None:
+  
     # Write your code here
     if not self.head is None:
       self.head = self.head.next
