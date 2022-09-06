@@ -15,6 +15,7 @@ class Queue:
 
   def dequeue(self) -> None:
     # Write your code here
+    
 
   def status(self) -> None:
     # Write your code here
